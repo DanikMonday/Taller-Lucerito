@@ -29,7 +29,7 @@
 .cont-nav{
     margin-top: 5px;
     width:100%;
-    height: 35px;
+    height: 40px;
     background-color: #B52C2C;
     display: flex;
     align-items:center;
@@ -82,7 +82,7 @@
 /* Descubrir */
 
 .gal-des{
-    background-color: #B52C2C;
+    background-color: #a67e7e;
     width:240px;
     height:65px;
     margin-top: 10px;

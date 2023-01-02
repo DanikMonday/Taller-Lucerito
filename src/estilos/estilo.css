@@ -53,7 +53,7 @@
 
 .cont-bie{
     margin: 0 auto;
-    width:231px;
+    width:240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +61,7 @@
 }
 
 .tit-bie{
-    width: 231px;
+    width: 240px;
     margin-top: 20px;
     text-align: center;
     font-size:20px;
@@ -74,7 +74,7 @@
 .cont-bie p{
     text-align: justify;
     margin-top: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
     line-height: 1.5;
 
 }
@@ -83,7 +83,7 @@
 
 .gal-des{
     background-color: #B52C2C;
-    width:228px;
+    width:240px;
     height:65px;
     margin-top: 10px;
     display: flex;
@@ -112,7 +112,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width:231px;
+    width:240px;
     margin-top: 10px;
 
 }

@@ -146,7 +146,13 @@
 
 @media (min-width:745px ) { 
     .sec-prod{
-        width:740px;
+        width:480px;
+    }
+}
+
+@media (min-width:1044px ) { 
+    .sec-prod{
+        width:750px;
     }
 }
 
@@ -193,6 +199,14 @@
     background-color: #D9D9D9;
     width:140px;
     height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-prod{
+    width: 90%;
 }
 
 .precio-prod{

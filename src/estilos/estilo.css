@@ -114,7 +114,7 @@
     margin: 0 auto;
     width:240px;
     margin-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 
 }
 
@@ -130,6 +130,10 @@
     align-items: center;
     position: absolute;
     bottom: 0;
+}
+
+.cora-pie{
+    color:#B52C2C;
 }
 
 /* Productos Trabajo */
@@ -157,7 +161,7 @@
 }
 
 .ProductosTrabajo{
-    margin-top: 5px;
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     gap:20px;
@@ -165,10 +169,10 @@
 }
 .carrito-btn{
     background-color: #D9D9D9;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 12px;
     border: none;
 }
 
@@ -177,7 +181,7 @@
 }
 
 .carrito-img{
-    width: 100%;
+    width: 65%;
 }
 
 .cada-prod{
@@ -188,6 +192,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 10px;
 }
 
 .nom-prod{
@@ -203,6 +208,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 10px;
 }
 
 .img-prod{
@@ -215,5 +221,10 @@
     height: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.cop-prod{
+    font-weight: 700;
 }

@@ -2,7 +2,6 @@ import React from "react";
 import AgregarCarrito from "./AgregarCarrito";
 
 
-
 function Producto(props){
   return(
   <div className="cada-prod"> 
@@ -11,8 +10,10 @@ function Producto(props){
             <img className="img-prod" src= 'https://picsum.photos/180' alt="productibiris"/>
       </div>
       <div className="precio-prod">
-            <p className="cop-prod">${props.price}</p>
+            <p className="cop-prod">${props.price} COP</p>
             <AgregarCarrito></AgregarCarrito>
+            
+            
       </div>
   </div>
   );

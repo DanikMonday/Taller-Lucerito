@@ -1,4 +1,5 @@
 import React from "react";
+import { BsWhatsapp } from "react-icons/bs"
 
 function Resumen(){
   return(
@@ -8,6 +9,7 @@ function Resumen(){
              y confección de prendas de vestir para dotaciones industriales, jardines
               (agrícolas), cultivos de flores y frutos, salones de belleza, restaurantes,
              dotación hospitalaria y elementos complementarios textiles. </p>
+             <BsWhatsapp/>
    </div>
   );
 }

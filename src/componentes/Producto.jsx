@@ -1,14 +1,20 @@
 import React from "react";
+import AgregarCarrito from "./AgregarCarrito";
+
+
 
 function Producto(){
   return(
-   <div className="cont-bie">
-        <div className="tit-bie">¿QUIENES SOMOS?</div>
-        <p>El taller de Lucerito, desde el 2001 es una empresa dedicada al corte
-             y confección de prendas de vestir para dotaciones industriales, jardines
-              (agrícolas), cultivos de flores y frutos, salones de belleza, restaurantes,
-             dotación hospitalaria y elementos complementarios textiles. </p>
-   </div>
+  <div className="cada-prod"> 
+      <div className="cont-prod">
+            <h2 className="nom-prod">Bambú</h2>
+            <img className="img-prod" src= '' alt="productibiris"/>
+      </div>
+      <div className="precio-prod">
+            <p className="cop-prod">$200.000</p>
+            <AgregarCarrito></AgregarCarrito>
+      </div>
+  </div>
   );
 }
 

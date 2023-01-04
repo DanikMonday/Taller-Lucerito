@@ -276,6 +276,10 @@
         height: 213px;
     }
 }
+.cont-img-prod{
+    display: flex;
+    justify-content: center;
+}
 
 .img-prod{
     width: 90%;
@@ -300,4 +304,25 @@
 }
 .cop-prod{
     font-weight: 700;
+}
+
+/* Descripcion */
+
+.sec-descr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cont-p-descr{
+    padding: 20px;
+
+    
+}
+
+.p-descr{
+    background-color: #a67e7e;
+    font-size: 11px;
+    
 }

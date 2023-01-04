@@ -3,36 +3,42 @@
         "id": "OV01DR",
         "name":"Overol 2 Piezas",
         "price": "62.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     },
     {
         "id": "CA01LA",
         "name":"Camisa Tipo Polo",
         "price": "30.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     },
     {
         "id": "PI01DA",
         "name":"Pijama Fumigación",
         "price": "38.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     },
     {
         "id": "BA01DA",
         "name":"Batas",
         "price": "38.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     },
     {
         "id": "CH01RF",
         "name":"Chaquetas",
         "price": "65.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     },
     {
         "id": "CL01RF",
         "name":"Chalecos",
         "price": "62.000",
-        "url": "../imagenes/CH02SFA-2"
+        "url": "../imagenes/CH02SFA-2",
+        "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
     }
 ]

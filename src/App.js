@@ -7,6 +7,7 @@ import Navegacion from './componentes/Navegacion';
 import Pie from './componentes/Pie';
 import Home from './Pages/Home';
 import ProductosTrabajo from './Pages/ProductosTrabajo';
+import Descripcion from './Pages/Descripcion';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Encabezado/>
       <Navegacion/>
       <Routes>
+          <Route path='/Descripcion' element={<Descripcion/>}/>
           <Route path='/ProductosTrabajo' element={<ProductosTrabajo/>}/>
           <Route path='/' element={<Home/>}/>
       </Routes>

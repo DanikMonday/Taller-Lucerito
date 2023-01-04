@@ -4,7 +4,11 @@
         "name":"Overol 2 Piezas",
         "price": "62.000",
         "url": "../imagenes/CH02SFA-2",
-        "description":"Overol. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)"
+        "description":"Overol. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
+        "talla":[   
+                    ["6","8","10","12","14","16"],
+                    ["28","30","32","34","36","38"]
+                ]
     },
     {
         "id": "CA01LA",

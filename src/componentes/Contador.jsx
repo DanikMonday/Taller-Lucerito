@@ -1,13 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 
-function Contador(){
+
+function Contador(props){
+
+  const [cantidad, setCantidad]= useState(0);
+  const adicionar = () => setCantidad(cantidad + 1);
+  const sustraer = () => setCantidad(cantidad - 1);
+
   return(
-   <div className="cont-bie">
-        <div className="tit-bie">¿QUIENES SOMOS?</div>
-        <p>El taller de Lucerito, desde el 2001 es una empresa dedicada al corte
-             y confección de prendas de vestir para dotaciones industriales, jardines
-              (agrícolas), cultivos de flores y frutos, salones de belleza, restaurantes,
-             dotación hospitalaria y elementos complementarios textiles. </p>
+   <div className="cont-conta">
+          <p><b>Talla </b>  </p>
+          <p><button className="btn-sus" onClick={sustraer}>-</button></p>
+          <p>{cantidad}</p>
+          <p><button className="btn-adi" onClick={adicionar}>+</button></p>
+         
+          
    </div>
   );
 }

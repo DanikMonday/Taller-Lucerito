@@ -310,19 +310,34 @@
 
 .sec-descr{
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 40px;
 }
 
+.tit-descr{
+    background-color: #a67e7e;
+    width: 110px;
+    margin-top: 20px;
+    text-align: center;
+    font-size:15px;
+    font-weight: 750;
+    border-bottom-style: solid;
+    border-color: #B52C2C;
+}
+ 
 .cont-p-descr{
-    padding: 20px;
-
-    
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    align-items:center;
 }
 
 .p-descr{
-    background-color: #a67e7e;
+    display: flex;
+    align-items: center;
+    text-align: justify;
     font-size: 11px;
-    
+    width: 180px;
+    margin-top: 30px;
 }

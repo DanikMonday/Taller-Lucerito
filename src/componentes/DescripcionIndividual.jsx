@@ -14,9 +14,8 @@ function DescripcionIndividual(props){
                 />
         </div>
         <div className="cont-p-descr">
-                <p className="p-descr">
-                   <Bienvenida titulo ='DESCRIPCIÓN' parrafo={props.producto.description}/></p>
-                   
+            <div><h2 className="tit-descr">DESCRIPCIÓN</h2></div>
+            <p className="p-descr">{props.producto.description}</p> 
         </div>
     </div>
 

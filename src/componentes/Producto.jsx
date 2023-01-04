@@ -12,8 +12,6 @@ function Producto(props){
       <div className="precio-prod">
             <p className="cop-prod">${props.price} COP</p>
             <AgregarCarrito></AgregarCarrito>
-            
-            
       </div>
   </div>
   );

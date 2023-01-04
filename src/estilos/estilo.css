@@ -194,7 +194,7 @@
     justify-content: center;
 }
 
-@media (min-width:745px ) { 
+@media (min-width:500px ) { 
     .sec-prod{
         width:480px;
     }

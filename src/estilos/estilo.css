@@ -11,11 +11,25 @@
     border-color: #B52C2C;
 }
 
+@media (min-width: 745px) { 
+    .cont-enc{
+        max-height:170px;
+    }
+}
 .img-enc{
     width: 80%;
     height: 80%;
     max-width: 270px;
     max-height: 90px;
+}
+
+@media (min-width:745px ) { 
+    .img-enc{
+        width: 80%;
+        height: 80%;
+        max-width: 510px;
+        max-height: 165px;
+    }
 }
 
 .line-enc{
@@ -36,19 +50,51 @@
     justify-content: space-evenly;
 }
 
+@media (min-width:745px ) { 
+    .cont-nav{
+        height: 62px;
+    } 
+}
+
 .img-cart{
     width:27px;
     height: 27px;
 }
 
+@media (min-width:745px ) { 
+    .img-cart{
+        width:40px;
+        height: 40px;
+    }
+}
+
 .ini-nav{
     color: white;
+    text-decoration: none;
+}
+
+.ini-nav:hover{
+    color: #000000;
 }
 
 .pro-nav{
     color: white;
+    text-decoration: none;
 }
 
+.pro-nav:hover{
+    color: #000000;
+}
+
+@media (min-width:745px ) { 
+    .ini-nav{
+        font-size: 25px;
+    }
+    
+    .pro-nav{
+        font-size: 25px;
+    }
+}
 /* Bienvenida */
 
 .cont-bie{
@@ -167,6 +213,7 @@
     gap:20px;
     justify-content: center;
 }
+
 .carrito-btn{
     background-color: #D9D9D9;
     width: 25px;
@@ -195,11 +242,23 @@
     border-radius: 10px;
 }
 
+@media (min-width:745px ) { 
+    .cada-prod{
+        width: 217px;
+        height: 272px;
+    }
+}
+
 .nom-prod{
     font-size: 12px;
     text-align: center;
 }
 
+@media (min-width:745px ) { 
+    .nom-prod{
+        font-size: 15px;
+    }
+}
 .cont-prod{
     background-color: #D9D9D9;
     width:140px;
@@ -211,8 +270,16 @@
     border-radius: 10px;
 }
 
+@media (min-width:745px ) { 
+    .cont-prod{
+        width:186px;
+        height: 213px;
+    }
+}
+
 .img-prod{
     width: 90%;
+    border-radius: 10px;
 }
 
 .precio-prod{
@@ -225,6 +292,12 @@
     border-radius: 10px;
 }
 
+@media (min-width:745px ) { 
+    .precio-prod{
+        width:186px ;
+        height: 32px;
+    }
+}
 .cop-prod{
     font-weight: 700;
 }

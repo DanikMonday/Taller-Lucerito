@@ -8,7 +8,7 @@ function ProductosTrabajo(props) {
   return (
     <section className="sec-prod">
       <Bienvenida
-        titulo='PRODUCTOS:
+        titulo='
          Ropa de Trabajo'
         /> 
       <div className='ProductosTrabajo'>

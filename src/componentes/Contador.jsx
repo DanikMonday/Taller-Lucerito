@@ -15,7 +15,9 @@ function reducer(state, action) {
     case "INCREMENTO":
       return {cantidad: state.cantidad + 1};
     case "DECREMENTO":
-      return {cantidad: state.cantidad - 1}
+      return {cantidad: state.cantidad - 1};
+    case "RESET":
+      return initialState;
     default:
       // retorna el nuevo estado despues de ejecutar la funcion
       return state;
@@ -31,6 +33,7 @@ function Contador(props){
  // dispatch es la funcion que actualiza el estado, recibe el tipo de accion
   const adicionar = () => dispatch({type: TYPES.INCREMENTO});
   const sustraer = () => dispatch({type: TYPES.DECREMENTO});
+  const reset= () => dispatch({type: TYPES.RESET});
 
   return(
    <div className="cont-conta">
@@ -38,7 +41,7 @@ function Contador(props){
           <p><button className="btn-sus" onClick={sustraer}>-</button></p>
           <p>{state.cantidad}</p>
           <p><button className="btn-adi" onClick={adicionar}>+</button></p>
-          <button className="btn-basu" > <BsTrashFill/></button>
+          <button className="btn-basu" onClick={reset} > <BsTrashFill/></button>
          
           
    </div>

@@ -26,6 +26,7 @@ function reducer(state, action) {
 }
 
 function Contador(props){
+  
 
  // El hook useReducer nos permite usar la funcion reducer 
 //  para manipular el estado de una variable
@@ -37,7 +38,7 @@ function Contador(props){
 
   return(
    <div className="cont-conta">
-          <p><b>Talla_{props.talla} </b></p>
+          <div className="cont-talla"><b>Talla {props.talla} </b></div><br/>
           <p><button className="btn-sus" onClick={sustraer}>-</button></p>
           <p>{state.cantidad}</p>
           <p><button className="btn-adi" onClick={adicionar}>+</button></p>

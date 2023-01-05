@@ -3,9 +3,9 @@ import cart from '../imagenes/cartbla.png'
 
 function AgregarCarrito() {
   return (
-    <button className='carrito-btn'>
+    <div >
         <img className='carrito-img' src={cart} alt='carrito'/>
-    </button>
+    </div>
   )
 }
 

@@ -11,7 +11,7 @@ function Navegacion(){
         <Link to="/ProductosTrabajo" className="pro-nav">PRODUCTOS</Link>
       </div>
       <div>
-        <img className="img-cart" src={require("../imagenes/cartb.png")}alt="carrito" />
+        <Link to="/Carrito" ><img className="img-cart" src={require("../imagenes/cartb.png")}alt="carrito" /></Link>
       </div>
    </div>
   );

@@ -1,6 +1,9 @@
 import React from "react";
 import Producto from "../componentes/Producto";
 import Contador from "../componentes/Contador";
+import AgregarCarrito from "./AgregarCarrito";
+import { BsTabletLandscape } from "react-icons/bs";
+import data from '../productos.json'
 
 function DescripcionIndividual(props){
   return(
@@ -18,9 +21,8 @@ function DescripcionIndividual(props){
             </div>
         </div>
         <div className="sec-conta">
-            <Contador
-               talla={props.producto.talla} 
-            />
+            <div>{props.producto.talla.mujer.map(t=><Contador talla={t}/>)}</div><br/>
+            <div>{props.producto.talla.hombre.map(t=><Contador talla={t}/>)}</div>
         </div>
     </div>
    

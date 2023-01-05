@@ -349,16 +349,15 @@
 /* Contador */
 .sec-conta{
     margin-top: 25px; 
-    width:160px;
+    width:330px;
     display: flex;
-    justify-content: right;
 }
 
 .cont-conta{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 150px;
 }
 
 .btn-adi{
@@ -375,8 +374,8 @@
 
 .btn-sus{
     background-color: #5F5F5F;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,8 +387,13 @@
 .btn-basu{
     border: none;
     background-color:transparent;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     margin-top: 3px;
 
+}
+
+.cont-talla{
+    width: 100px;
+    margin-left: 5px;
 }

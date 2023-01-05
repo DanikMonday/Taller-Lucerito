@@ -5,7 +5,9 @@
         "price": "62.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Overol. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"6"
+        "talla":{   "mujer":["6","8","10"],
+                    "hombre":["28","30","32"]
+                }
     },
     {
         "id": "CA01LA",
@@ -13,7 +15,9 @@
         "price": "30.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Camisa Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"S"
+        "talla":{   "mujer":["6","8","10"],
+        "hombre":["28","30","32"]
+    }
     },
     {
         "id": "PI01DA",
@@ -21,7 +25,9 @@
         "price": "38.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Pijama Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"S"
+        "talla":{   "mujer":["6","8","10"],
+        "hombre":["28","30","32"]
+    }
     },
     {
         "id": "BA01DA",
@@ -29,7 +35,9 @@
         "price": "38.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Bata Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"S"
+        "talla":{   "mujer":["6","8","10"],
+        "hombre":["28","30","32"]
+    }
     },
     {
         "id": "CH01RF",
@@ -37,7 +45,9 @@
         "price": "65.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Chaqueta Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"S"
+        "talla":{   "mujer":["6","8","10"],
+        "hombre":["28","30","32"]
+    }
     },
     {
         "id": "CL01RF",
@@ -45,6 +55,8 @@
         "price": "62.000",
         "url": "../imagenes/CH02SFA-2",
         "description":"Chaleco Impermeable. Elaborada en recubrimiento; con forro en fleece, capota y caucho en el puño. Bordado delantero de logo. Tres bolsillos (2 exteriores y 1 interior)",
-        "talla":"S"
+        "talla":{   "mujer":["6","8","10"],
+        "hombre":["28","30","32"]
+    }
     }
 ]

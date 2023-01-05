@@ -1,9 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Bienvenida from "../componentes/Bienvenida";
 import Producto from "../componentes/Producto";
-import data from '../productos.json'
-import Contador from "./Contador";
+import Contador from "../componentes/Contador";
 
 function DescripcionIndividual(props){
   return(
@@ -22,7 +19,8 @@ function DescripcionIndividual(props){
         </div>
         <div className="sec-conta">
             <Contador
-                />
+               talla={props.producto.talla} 
+            />
         </div>
     </div>
    

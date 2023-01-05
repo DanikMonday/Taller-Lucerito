@@ -363,8 +363,8 @@
 
 .btn-adi{
     background-color: #B52C2C;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,12 +375,21 @@
 
 .btn-sus{
     background-color: #5F5F5F;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     margin: 0 10px;
+}
+
+.btn-basu{
+    border: none;
+    background-color:transparent;
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+
 }
